@@ -1,0 +1,41 @@
+.TH NOMAS 1 "2024" "Ravi Rahar"
+.PP
+.SH NAME
+nomas \- applcation to shows notification history
+.PP
+.SH SYNOPSIS
+.PP
+.B nomas
+[
+.IR OPTIONS
+]
+.PP
+.SH DESCRIPTION
+.B nomas 
+is a gtk application that shows your notification history. It can read history
+from a file. Some standard applications (\fIlike dunst\fR) provide a command 
+for history or have standard locations where they store history. \fBnomas\fR
+can retrieve history from these locations.
+.PP
+.SH OPTIONS
+.TP
+\fB-f\fR ,\ \fB--file\fR\ \fIfilename\fR
+provide a \fIfilename\fR from which to read history. for now only json file
+format supported because of reliance on \fIdunst\fR.
+.TP
+\fB-a\fR ,\ \fB--app\fR\ \fIapplication\fR
+current notification daemon \fIapplication\fR name.
+.PP
+.SH TODO
+Implement a server which listens to notifications and stores them. Then third 
+party applications (\fIlike dunst\fR) would not be needed.
+.PP
+.SH BUGS
+Application in initial development phase right now.
+.PP
+.SH SEE ALSO
+.BR dunst (1),
+.BR dunstctl (1)
+.PP
+.SH AUTHOR
+Ravi Rahar

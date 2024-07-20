@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=NoMas
+Icon=nomas
+TryExec=nomas
+Exec=nomas %f
+
+Terminal=false
+Categories=Utility;
+StartupWMClass=nomas
+Comment=Revisit your notification history
+Keywords=NoMas;nomas;notification;history;

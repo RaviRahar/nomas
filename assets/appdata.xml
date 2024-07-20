@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019 Your Name <popvladaurel@gmail.com> -->
+<component type="desktop">
+    <id>com.github.ravirahar.nomas</id>
+    <metadata_license>CC0</metadata_license>
+    <name>NoMas</name>
+    <summary>Applcation to shows notification history</summary>
+    <description>
+        <p>
+            NoMas is a gtk application that shows your notification history. It
+            can read history
+            from a file. Some standard applications (like dunst) provide a
+            command for history or have standard locations where they
+            store history. NoMas
+            can retrieve history from these locations.
+        </p>
+    </description>
+</component>
