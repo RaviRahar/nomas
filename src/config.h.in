@@ -1,2 +1,1 @@
-#define TOKEN 
-#define version "@version@"
+#mesondefine NOMAS_PRODUCTION
