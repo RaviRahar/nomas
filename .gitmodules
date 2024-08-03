@@ -1,0 +1,3 @@
+[submodule "src/notif"]
+	path = src/notif
+	url = https://github.com/RaviRahar/libnomas.git

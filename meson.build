@@ -3,8 +3,11 @@ project('nomas', 'c', version: '0.0.1')
 ###########################################
 ############ CONFIGURE PROJECT ############
 ###########################################
-configdata = configuration_data()
-# configdata.set('version', version)
+conf = configuration_data()
+
+prod = true
+
+conf.set('NOMAS_PRODUCTION', prod)
 
 subdir('assets')
 subdir('src')
